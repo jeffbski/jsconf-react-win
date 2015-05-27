@@ -1,14 +1,12 @@
-This is a **minimal React.js boilerplate with an auto build environment for Windows** which you can fork and clone to easily setup your own projects.
+# JSConf 2015 React.js Training Workshop Code (Windows version)
 
-Use git to clone or download the zip from GitHub and run `npm install`
+This is the starter code for the Introduction / Getting started with React.js training workshop at JSConf 2015
 
-This boilerplate is specifically for Windows users. Non-windows users should see https://github.com/jeffbski/base-react-min
+This boilerplate is specifically for **Windows users**. Non-windows users should see https://github.com/jeffbski/jsconf-react-win
 
-TODO: Replace this boilerplate with your project description
+This boilerplate code has these features:
 
-Features:
-
- - **Windows support** - Tested on WinXP, should work on anything newer. Also works with msys (but not required). Only restriction is that needs to use local drives, not network drives.
+ - **Windows support** - Tested on WinXP, should work on anything newer. Also works with msys (but not required). Only restriction is that it needs to use local drives, not network drives.
  - **React.js JSX example which fetches from REST source and renders**
  - **simple build and auto rebuild** (watch) using npm run scripts
  - **browser-sync** for auto reloading in browser on change
@@ -18,6 +16,7 @@ Features:
  - **watchify** to automatically rebuild on changes
  - **uglify** for js minification
  - **less** CSS style compiler
+ - **autoprefixer** for automatically adding css prefixes
  - **cleancss** for css minification
  - **axios** for promise based HTTP client
 
@@ -29,7 +28,7 @@ Structure:
  - src/browser.jsx - React.js JSX code which fetches REST data and renders into the main HTML
  - src/util/polyfill.js - Import any core-js or other polyfills here
  - assets/site.less - CSS styles used by site, edit or import into
- - bs-config.js - browser-sync config, set browser to launch
+ - bs-config.js - browser-sync config, set browser to launch, middleware implementing a REST api used for the app
  - dist/ - contains compiled and minified css and js
 
 Notes:
@@ -46,8 +45,6 @@ npm install ## install dependent node modules
 ```
 
 ## Usage
-
-TODO: update with your usage
 
 Primary use - auto build and reload browser
 ```bash
@@ -66,21 +63,10 @@ node run prod-build # sets NODE_ENV=production then builds
 ```
 
 
-## Goals
-
-TODO: Add your goals here
-
-## Why
-
-TODO: Add your description of why you created this
-
-## Get involved
-
-If you have input or ideas or would like to get involved, you may:
+## More info
 
  - contact me via twitter @jeffbski  - <http://twitter.com/jeffbski>
- - open an issue on github to begin a discussion - <https://github.com/jeffbski/jsconf-react-win/issues>
- - fork the repo and send a pull request (ideally with tests) - <https://github.com/jeffbski/jsconf-react-win>
+ - Register for my membership list on http://codewinds.com/ to get notified about my upcoming React.js video training, podcast, and tutorials.
 
 ## License
 

@@ -1,6 +1,6 @@
 {
   "name": "jsconf-react-win",
-  "description": "",
+  "description": "JSConf 2015 React.js training workshop code (Windows version)",
   "version": "0.0.2",
   "author": "Jeff Barczewski <info@codewinds.com>",
   "repository": {
