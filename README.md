@@ -2,7 +2,7 @@
 
 This is the starter code for the Introduction / Getting started with React.js training workshop at JSConf 2015
 
-This boilerplate is specifically for **Windows users**. Non-windows users should see https://github.com/jeffbski/jsconf-react-win
+This boilerplate is specifically for **Windows users**. Non-windows users should see https://github.com/jeffbski/jsconf-react
 
 This boilerplate code has these features:
 
