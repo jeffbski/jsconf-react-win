@@ -16,7 +16,6 @@ This boilerplate code has these features:
  - **watchify** to automatically rebuild on changes
  - **uglify** for js minification
  - **less** CSS style compiler
- - **autoprefixer** for automatically adding css prefixes
  - **cleancss** for css minification
  - **axios** for promise based HTTP client
 
